@@ -1,0 +1,41 @@
+{
+  "name": "simple-jwt-in-node",
+  "version": "1.0.0",
+  "description": "Simple JWT in NodeJs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/amirkangarloo/simple-jwt-in-node.git"
+  },
+  "keywords": [
+    "NodeJs",
+    "JWT",
+    "json",
+    "web",
+    "token",
+    "Token",
+    "Authentication",
+    "Express"
+  ],
+  "author": "Amir Kangarloo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amirkangarloo/simple-jwt-in-node/issues"
+  },
+  "homepage": "https://github.com/amirkangarloo/simple-jwt-in-node#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-async-errors": "^3.1.1",
+    "http-status-codes": "^2.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
